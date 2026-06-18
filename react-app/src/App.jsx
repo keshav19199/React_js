@@ -1,16 +1,14 @@
-
-import MyButton from "./MyButton";
+import { Button } from "./Component/Mybuuton";
 
 function App()
 {
-  return <div>
-  <h1>Hello Keshav..
-    This is best react cource
-  </h1>
-
-  <myButton></myButton>
-
-   {/*<button>Mine</button>*/}
-  </div>
+  return( <>
+  
+  <h1>Hello Keshav..</h1>
+  <Button></Button>
+  
+  {<button>Mine</button>}
+  </>
+  )
 }
 export default App;
