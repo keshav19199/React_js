@@ -1,6 +1,8 @@
 import './App.css';
+
 import Header from './Header';
 import Footer from './Footer';
+import Random from './Component/Random';
 
 function App() {
 
@@ -16,7 +18,11 @@ function App() {
 
       <p>City : {city}</p>
 
+
       <p>Skill : {skill}</p>
+<Random></Random>
+<Random></Random>
+
     </div>
   );
 }
